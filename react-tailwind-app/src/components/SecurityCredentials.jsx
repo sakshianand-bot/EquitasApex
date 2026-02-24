@@ -2,23 +2,23 @@ const SecurityCredentials = () => {
   const credentials = [
     {
       icon: "●",
-      title: "AES-256 Encryption",
-      description: "Bank-grade security for all client data and communications"
+      title: "INSTITUTIONAL-GRADE SECURITY",
+      description: "Bank-grade protection for all wealth multiplication framework data and communications"
     },
     {
       icon: "●",
       title: "FIDUCIARY CERTIFIED",
-      description: "Legally bound to act in your best interest at all times"
+      description: "Legally bound to act in your best interest for wealth sovereignty"
     },
     {
       icon: "●",
-      title: "Private Client Only",
-      description: "By referral or application - exclusive membership"
+      title: "PRIVATE CLIENT ONLY",
+      description: "By referral or application - exclusive wealth multiplication membership"
     },
     {
       icon: "✓",
-      title: "SOC 2 Type II",
-      description: "Audited controls for security, availability, and confidentiality"
+      title: "GLOBAL COMPLIANCE",
+      description: "Multi-jurisdictional oversight for international wealth protection"
     }
   ];
 
@@ -29,7 +29,7 @@ const SecurityCredentials = () => {
           <h2 className="font-serif text-3xl font-bold text-midnight-navy mb-2">
             Security & <span className="text-burnished-gold">Trust</span>
           </h2>
-          <p className="font-sans text-slate-grey">Enterprise-grade protection for your financial sovereignty</p>
+          <p className="font-sans text-slate-grey">Institutional-grade protection for your wealth multiplication frameworks</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

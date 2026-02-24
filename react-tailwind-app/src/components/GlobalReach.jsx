@@ -4,7 +4,7 @@ const GlobalReach = () => {
     { name: "Cayman Islands", type: "Offshore", highlight: "Private Banking" },
     { name: "Switzerland", type: "Vault Storage", highlight: "Gold Depository" },
     { name: "Singapore", type: "Asia Pacific", highlight: "Regional Hub" },
-    { name: "Wyoming", type: "Domestic", highlight: "UBT Friendly" },
+    { name: "Wyoming", type: "Domestic", highlight: "Framework Friendly" },
     { name: "Dubai", type: "Middle East", highlight: "Wealth Hub" }
   ];
 

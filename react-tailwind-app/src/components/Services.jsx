@@ -4,28 +4,28 @@ import { motion } from 'framer-motion';
 const Services = () => {
   const services = [
     {
-      title: "UBT Architecture",
-      subtitle: "Structural Sovereignty",
-      description: "Custom Unincorporated Business Trusts engineered for absolute privacy and multi-generational asset protection.",
-      features: ["Complete Privacy", "Asset Protection", "Tax Optimization"]
+      title: "Private Financing Framework",
+      subtitle: "Tax-Deferred Growth",
+      description: "Specially structured, high-cash-value permanent vehicles to create a private reserve with immediate liquidity.",
+      features: ["Complete Privacy", "Tax-Deferred Growth", "Immediate Liquidity"]
     },
     {
-      title: "Metals Collateralization",
-      subtitle: "Liquidity Engineering",
-      description: "Strategic credit lines via Apex/SWP bridges, transforming stagnant bullion into dynamic working capital.",
-      features: ["Liquidity Access", "Gold/Silver Backing", "Competitive Rates"]
+      title: "Capital Recycling",
+      subtitle: "Leverage & Deploy",
+      description: "Contribution and leverage model to fund assets, build immediate equity, and redeploy capital without interrupting growth.",
+      features: ["Equity Leverage", "Continuous Growth", "Strategic Deployment"]
     },
     {
-      title: "Infinite Banking",
-      subtitle: "Wealth Multiplication",
-      description: "Mastering the 'Dump and Redraw' methodology through Foresters Financial to become your own source of financing.",
-      features: ["Tax-Free Growth", "Legacy Planning", "Private Financing"]
+      title: "Strategic Distribution",
+      subtitle: "Tax-Efficient Flow",
+      description: "Structured withdrawal and loan strategies creating tax-free income streams for accessible global wealth.",
+      features: ["Tax-Free Income", "Global Access", "Wealth Protection"]
     },
     {
-      title: "Sovereign Travel",
-      subtitle: "Lifestyle Optimization",
-      description: "Sophisticated trust-based credit systems designed to facilitate high-limit rewards and global luxury access.",
-      features: ["First Class Access", "Global Benefits", "Trust-Based Credit"]
+      title: "Sovereign Protection",
+      subtitle: "Institutional Framework",
+      description: "Become the bank within your own ecosystem using non-bank financing with institutional-grade protection.",
+      features: ["Sovereign Status", "Private Banking", "Global Jurisdictions"]
     }
   ];
 

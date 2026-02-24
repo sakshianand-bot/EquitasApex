@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="font-sans text-sm text-gray-300">
-              Sovereign Wealth Architecture for the sophisticated investor.
+              Wealth Multiplication Frameworks for the sophisticated investor.
             </p>
           </div>
 
@@ -27,10 +27,10 @@ const Footer = () => {
           <div>
             <h4 className="font-sans font-semibold text-burnished-gold mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">UBT Architecture</Link></li>
-              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">Metals Collateralization</Link></li>
-              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">Infinite Banking</Link></li>
-              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">Sovereign Travel</Link></li>
+              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">Private Financing Framework</Link></li>
+              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">Capital Recycling</Link></li>
+              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">Strategic Distribution</Link></li>
+              <li><Link to="/services" className="font-sans text-sm text-gray-300 hover:text-burnished-gold transition-colors">Sovereign Protection</Link></li>
             </ul>
           </div>
 

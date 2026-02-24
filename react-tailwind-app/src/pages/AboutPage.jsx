@@ -2,17 +2,17 @@ import { Link } from 'react-router-dom';
 
 const AboutPage = () => {
   const stats = [
-    { value: "$10B+", label: "Assets Under Architecture" },
+    { value: "$10B+", label: "Assets Under Framework" },
     { value: "500+", label: "High-Net-Worth Clients" },
     { value: "15+", label: "Years of Experience" },
     { value: "98%", label: "Client Retention Rate" }
   ];
 
   const principles = [
-    { title: "Privacy First", description: "Your financial affairs remain strictly confidential through our trust-based structures." },
-    { title: "Asset Security", description: "Multi-layered protection strategies safeguarding your wealth from all threats." },
-    { title: "Global Mobility", description: "International solutions for the modern sovereign individual." },
-    { title: "Wealth Preservation", description: "Generational wealth transfer strategies that stand the test of time." }
+    { title: "Private Reserve", description: "Your financial foundation through specially structured vehicles with tax-deferred growth." },
+    { title: "Capital Recycling", description: "Leverage equity while maintaining compound growth of your original principal." },
+    { title: "Strategic Distribution", description: "Tax-efficient income streams creating accessible global wealth protection." },
+    { title: "Sovereign Protection", description: "Become the bank within your own ecosystem with institutional-grade protection." }
   ];
 
   return (
@@ -41,8 +41,7 @@ const AboutPage = () => {
               <div className="text-burnished-gold text-4xl mb-6">◆</div>
               <h2 className="font-serif text-3xl font-bold mb-6 text-burnished-gold">Our Mission</h2>
               <p className="font-sans text-lg text-gray-300 leading-relaxed">
-                To empower individuals with the architecture of financial sovereignty by transforming 
-                stagnant hard assets into dynamic, liquid wealth. We provide the tools, structures, 
+                To empower individuals with wealth multiplication frameworks that maximize the velocity of money while maintaining institutional-grade protection. We provide the tools, structures, 
                 and strategies necessary for true financial independence in an increasingly centralized world.
               </p>
             </div>
@@ -52,8 +51,7 @@ const AboutPage = () => {
               <div className="text-midnight-navy text-4xl mb-6">◆</div>
               <h2 className="font-serif text-3xl font-bold mb-6 text-midnight-navy">Our Vision</h2>
               <p className="font-sans text-lg text-slate-grey leading-relaxed">
-                To lead the global transition toward private, asset-backed banking systems that prioritize 
-                privacy, security, and mobility. We envision a world where financial sovereignty is accessible 
+                To lead the global transition toward non-bank financing frameworks that enable sovereign wealth multiplication and protection. We envision a world where financial sovereignty is accessible 
                 to those who seek true independence from traditional banking constraints.
               </p>
             </div>
@@ -83,7 +81,7 @@ const AboutPage = () => {
               Core Principles
             </h2>
             <p className="font-sans text-xl text-slate-grey max-w-3xl mx-auto">
-              The foundation of our sovereign wealth architecture
+              The foundation of our wealth multiplication frameworks
             </p>
           </div>
 
@@ -118,8 +116,8 @@ const AboutPage = () => {
                 root of fiduciary — reminds us daily of our sacred trust to act in our clients' best interests.
               </p>
               <p>
-                We specialize in the intersection of hard asset preservation and modern liquidity strategies. Through 
-                our proprietary UBT structures, metals collateralization programs, and Infinite Banking education, we 
+                We specialize in the intersection of wealth multiplication frameworks and modern liquidity strategies. Through 
+                our proprietary private financing vehicles, capital recycling programs, and strategic distribution education, we 
                 empower our clients to achieve financial sovereignty — true independence from traditional banking systems.
               </p>
             </div>
@@ -131,10 +129,10 @@ const AboutPage = () => {
       <section className="bg-gradient-to-br from-midnight-navy to-slate-grey text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
-            Begin Your <span className="text-burnished-gold">Sovereign Journey</span>
+            Begin Your <span className="text-burnished-gold">Wealth Multiplication</span>
           </h2>
           <p className="font-sans text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Discover how our wealth architecture can transform your financial future.
+            Discover how our wealth multiplication frameworks can transform your financial future.
           </p>
           <Link 
             to="/contact" 

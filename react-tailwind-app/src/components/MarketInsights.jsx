@@ -3,24 +3,24 @@ import { Link } from 'react-router-dom';
 const MarketInsights = () => {
   const insights = [
     {
-      title: "Gold & Silver: The Coming Bull Run",
-      excerpt: "Analysis of precious metals market dynamics and why HNW investors are increasing allocations.",
+      title: "Private Financing: Tax-Deferred Growth",
+      excerpt: "Analysis of high-cash-value permanent vehicles and how they create immediate liquidity with tax-deferred growth.",
       date: "Jan 15, 2026",
-      category: "Precious Metals",
+      category: "Wealth Framework",
       readTime: "5 min read"
     },
     {
-      title: "UBT Structures: Privacy in 2026",
-      excerpt: "How modern Unincorporated Business Trusts provide asset protection in an increasingly transparent world.",
+      title: "Capital Recycling: Maximizing Velocity",
+      excerpt: "How contribution and leverage models build immediate equity while maintaining compound growth of original principal.",
       date: "Jan 10, 2026",
-      category: "Trust Architecture",
+      category: "Strategic Deployment",
       readTime: "8 min read"
     },
     {
-      title: "The 'Dump & Redraw' Strategy Explained",
-      excerpt: "A deep dive into infinite banking and how to leverage participating whole life policies.",
+      title: "Strategic Distribution: Tax-Free Flow",
+      excerpt: "A deep dive into structured withdrawal and loan strategies creating tax-efficient income streams.",
       date: "Jan 5, 2026",
-      category: "Infinite Banking",
+      category: "Income Optimization",
       readTime: "6 min read"
     }
   ];
@@ -33,7 +33,7 @@ const MarketInsights = () => {
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-midnight-navy mb-4">
               Market <span className="text-burnished-gold">Insights</span>
             </h2>
-            <p className="font-sans text-slate-grey">Strategic intelligence for sovereign wealth builders</p>
+            <p className="font-sans text-slate-grey">Strategic intelligence for wealth multiplication frameworks</p>
           </div>
           <Link to="/contact" className="mt-4 md:mt-0 font-sans text-midnight-navy hover:text-burnished-gold transition-colors">
             View All Insights →

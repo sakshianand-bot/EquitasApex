@@ -1,10 +1,10 @@
 const FeaturedIn = () => {
   const publications = [
-    { name: "Wealth Management Magazine", highlight: "Featured Expert" },
-    { name: "Private Banking Quarterly", highlight: "Thought Leader" },
-    { name: "Precious Metals Review", highlight: "Contributor" },
-    { name: "Offshore Finance Today", highlight: "Authority Profile" },
-    { name: "Family Office Insights", highlight: "Strategy Expert" }
+    { name: "Wealth Management Magazine", highlight: "Framework Expert" },
+    { name: "Private Banking Quarterly", highlight: "Multiplication Authority" },
+    { name: "Strategic Finance Review", highlight: "Distribution Contributor" },
+    { name: "Offshore Finance Today", highlight: "Sovereign Authority" },
+    { name: "Family Office Insights", highlight: "Protection Expert" }
   ];
 
   return (

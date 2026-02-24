@@ -4,30 +4,30 @@ import { motion, AnimatePresence } from 'framer-motion';
 const steps = [
   {
     number: "01",
-    title: "Discovery",
-    subtitle: "Strategic Audit",
-    description: "A comprehensive analysis of your current assets and privacy vulnerabilities. We identify specific legal and financial gaps in your path to sovereignty.",
+    title: "Private Reserve",
+    subtitle: "Foundation Building",
+    description: "Establish specially structured, high-cash-value permanent vehicles to create your private reserve with tax-deferred growth and immediate liquidity.",
     icon: "circle"
   },
   {
     number: "02",
-    title: "Structure",
-    subtitle: "Architectural Design",
-    description: "Designing bespoke UBT frameworks and metals collateralization bridges. We engineer impenetrable walls of your private estate.",
+    title: "Capital Recycling",
+    subtitle: "Leverage & Deploy",
+    description: "Implement contribution and leverage models to fund assets, build immediate equity, and redeploy capital without interrupting compound growth.",
     icon: "square"
   },
   {
     number: "03",
-    title: "Implementation",
-    subtitle: "Active Deployment",
-    description: "Executing trust formation and credit line establishment. We move your wealth from traditional exposure to Tangible Asset Protection.",
+    title: "Strategic Distribution",
+    subtitle: "Tax-Efficient Flow",
+    description: "Execute structured withdrawal and loan strategies creating tax-free income streams for accessible global wealth protection.",
     icon: "triangle"
   },
   {
     number: "04",
-    title: "Sovereignty",
-    subtitle: "Continuous Optimization",
-    description: "Achieve total autonomy with ongoing advisory. Complete control over your legacy, liquidity, and global financial footprint.",
+    title: "Sovereign Framework",
+    subtitle: "Institutional Protection",
+    description: "Achieve complete autonomy with non-bank financing frameworks, becoming the bank within your own ecosystem with institutional-grade protection.",
     icon: "diamond"
   }
 ];
@@ -46,10 +46,10 @@ const ProcessTimeline = () => {
             whileInView={{ opacity: 1 }}
             className="text-[#C5A059] font-sans tracking-[0.4em] uppercase text-[10px] font-bold mb-4"
           >
-            The Methodology
+            Wealth Multiplication Process
           </motion.p>
           <h2 className="text-[#0A2463] text-5xl md:text-6xl font-serif tracking-tight">
-            Strategic <span className="italic">Evolution</span>
+            Strategic <span className="italic">Framework</span>
           </h2>
         </div>
 

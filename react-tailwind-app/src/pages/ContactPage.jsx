@@ -31,8 +31,8 @@ const ContactPage = () => {
             Private <span className="text-burnished-gold">Consultation</span>
           </h1>
           <p className="font-sans text-xl text-gray-300 max-w-3xl mx-auto">
-            Begin your journey toward financial sovereignty with a confidential consultation 
-            tailored to your unique wealth architecture needs.
+            Begin your wealth multiplication journey with a confidential consultation 
+            tailored to your unique framework needs.
           </p>
         </div>
       </section>
@@ -173,11 +173,11 @@ const ContactPage = () => {
                     className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
                   >
                     <option value="">Select a service</option>
-                    <option value="ubt">UBT Architecture</option>
-                    <option value="metals">Metals Collateralization</option>
-                    <option value="banking">Infinite Banking</option>
-                    <option value="travel">Sovereign Travel</option>
-                    <option value="comprehensive">Comprehensive Strategy</option>
+                    <option value="private">Private Financing Framework</option>
+                    <option value="capital">Capital Recycling</option>
+                    <option value="distribution">Strategic Distribution</option>
+                    <option value="sovereign">Sovereign Protection</option>
+                    <option value="comprehensive">Comprehensive Framework</option>
                   </select>
                 </div>
 
@@ -191,7 +191,7 @@ const ContactPage = () => {
                     onChange={handleChange}
                     rows="4" 
                     className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
-                    placeholder="Tell us about your wealth architecture goals..."
+                    placeholder="Tell us about your wealth multiplication goals..."
                   ></textarea>
                 </div>
 

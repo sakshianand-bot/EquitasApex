@@ -39,7 +39,7 @@ const IBCalculator = () => {
             Wealth <span className="bg-gradient-to-r from-[#C5A059] via-[#E4D1A3] to-[#C5A059] bg-clip-text text-transparent">Multiplication</span>
           </h2>
           <p className="font-sans text-blue-200/70 max-w-xl mx-auto text-lg">
-            Master your liquidity and compound your legacy with the Infinite Banking Concept.
+            Master your liquidity and compound your legacy with strategic wealth multiplication frameworks.
           </p>
         </div>
 

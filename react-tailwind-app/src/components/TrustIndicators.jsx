@@ -2,11 +2,11 @@ import React from 'react';
 
 const TrustIndicators = () => {
   const partners = [
-    { name: "Silver Wealth Partners", abbr: "SWP" },
-    { name: "Foresters Financial", abbr: "FF" },
-    { name: "Strategic Trust Advisors", abbr: "STA" },
+    { name: "Private Financing Partners", abbr: "PFP" },
+    { name: "Capital Recycling Advisors", abbr: "CRA" },
+    { name: "Strategic Distribution Trust", abbr: "SDT" },
     { name: "Global Vault Solutions", abbr: "GVS" },
-    { name: "Precious Metals Exchange", abbr: "PMX" },
+    { name: "Wealth Protection Exchange", abbr: "WPX" },
     { name: "Fiduciary Alliance", abbr: "FA" }
   ];
 

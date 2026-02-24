@@ -3,56 +3,56 @@ import { Link } from 'react-router-dom';
 const ServicesPage = () => {
   const services = [
     {
-      title: "UBT Architecture",
-      description: "Structuring Unincorporated Business Trusts for maximum privacy and asset protection. Our trust architecture creates an impenetrable legal fortress around your wealth, ensuring complete confidentiality and protection from frivolous litigation.",
+      title: "Private Financing Framework",
+      description: "Specially structured, high-cash-value permanent vehicles to create a private reserve with tax-deferred growth and immediate liquidity.",
       icon: "◆",
       features: [
         "Complete Privacy Protection",
-        "Asset Protection from Creditors",
-        "Tax Optimization Strategies",
-        "Estate Planning Integration",
+        "Tax-Deferred Growth",
+        "Immediate Liquidity Access",
+        "Institutional Grade Protection",
         "Multi-Generational Wealth Transfer"
       ],
-      details: "Our UBT structures are designed for high-net-worth individuals who require the highest level of privacy. Unlike traditional corporations, Unincorporated Business Trusts operate in complete confidentiality while maintaining full legal compliance."
+      details: "Our private financing framework uses specially designed permanent vehicles to create your personal reserve. This allows for tax-deferred growth while maintaining immediate liquidity, giving you the foundation for wealth multiplication."
     },
     {
-      title: "Metals Collateralization",
-      description: "Engineering credit lines via the Apex/SWP bridge to unlock your precious metals wealth without selling your hard assets.",
+      title: "Capital Recycling",
+      description: "Contribution and leverage model to fund assets, build immediate equity, and redeploy capital without interrupting compound growth.",
       icon: "◆",
       features: [
-        "Liquidity Access Without Selling",
-        "Gold & Silver Backing",
-        "Competitive Interest Rates",
-        "Apex/SWP Bridge Integration",
-        "Retain Metal Ownership"
+        "Equity Leverage Strategies",
+        "Continuous Growth Maintenance",
+        "Strategic Capital Deployment",
+        "Non-Interruptive Compounding",
+        "Liquidity Optimization"
       ],
-      details: "Transform your stagnant precious metals into dynamic, liquid wealth. Through our proprietary Apex/SWP bridge, we engineer credit lines backed by your gold and silver holdings, allowing you to access capital while maintaining ownership of your hard assets."
+      details: "Through our capital recycling model, you fund assets to build immediate equity, then leverage that equity as collateral. This allows you to deploy capital into external opportunities without interrupting the compounding growth of your original principal."
     },
     {
-      title: "Infinite Banking Education",
-      description: "Master the 'Dump and Redraw' strategy via Foresters Financial for wealth multiplication through properly structured whole life insurance policies.",
+      title: "Strategic Distribution",
+      description: "Structured withdrawal and loan strategies creating tax-free income streams for accessible global wealth protection.",
       icon: "◆",
       features: [
-        "Wealth Multiplication Strategies",
-        "Tax-Free Growth Mechanisms",
-        "Legacy Planning Solutions",
-        "Foresters Financial Integration",
-        "Private Family Banking Systems"
+        "Tax-Free Income Streams",
+        "Global Wealth Access",
+        "Structured Withdrawal Plans",
+        "Loan Strategy Implementation",
+        "Wealth Preservation Systems"
       ],
-      details: "Learn to become your own banker through the Infinite Banking Concept. We teach you the sophisticated 'Dump and Redraw' strategy using Foresters Financial's participating whole life insurance policies, creating a private banking system that grows tax-free and serves as a legacy wealth transfer vehicle."
+      details: "Our strategic distribution framework implements structured withdrawal and loan strategies to create tax-efficient cash flow. This ensures your wealth remains accessible and protected across global jurisdictions while maintaining growth."
     },
     {
-      title: "Sovereign Travel Consulting",
-      description: "Maximize high-limit rewards via trust-based credit systems for luxury travel including first-class access and global benefits.",
+      title: "Sovereign Protection",
+      description: "Become the bank within your own ecosystem using non-bank financing with institutional-grade protection and global mobility.",
       icon: "◆",
       features: [
-        "First Class & Private Jet Access",
-        "Reward Optimization Strategies",
-        "Global Travel Benefits",
-        "Trust-Based Credit Systems",
-        "Concierge Travel Services"
+        "Sovereign Status Achievement",
+        "Private Banking Systems",
+        "Global Jurisdiction Access",
+        "Institutional Grade Security",
+        "Complete Financial Autonomy"
       ],
-      details: "Experience the world as a sovereign should. Our travel consulting maximizes high-limit credit rewards through trust-based systems, granting you access to first-class lounges, private aviation, and exclusive travel experiences while building your credit profile."
+      details: "Achieve complete sovereignty by becoming the bank within your own ecosystem. Our non-bank financing frameworks provide institutional-grade protection while enabling global mobility and complete financial autonomy."
     }
   ];
 
@@ -65,7 +65,7 @@ const ServicesPage = () => {
             Our <span className="text-burnished-gold">Services</span>
           </h1>
           <p className="font-sans text-xl text-gray-300 max-w-3xl mx-auto">
-            Comprehensive wealth architecture solutions designed for the sophisticated investor seeking financial sovereignty through privacy, security, and mobility.
+            Comprehensive wealth multiplication frameworks designed for the sophisticated investor seeking financial sovereignty through non-bank financing and institutional-grade protection.
           </p>
         </div>
       </section>
@@ -117,10 +117,10 @@ const ServicesPage = () => {
       <section className="bg-midnight-navy text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">
-            Ready to Begin Your <span className="text-burnished-gold">Sovereign Journey</span>?
+            Ready to Begin Your <span className="text-burnished-gold">Wealth Multiplication</span>?
           </h2>
           <p className="font-sans text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Schedule a private consultation to discuss your unique wealth architecture needs.
+            Schedule a private consultation to discuss your unique wealth multiplication framework needs.
           </p>
           <Link 
             to="/contact" 

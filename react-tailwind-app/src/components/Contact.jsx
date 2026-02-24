@@ -7,7 +7,7 @@ const Contact = () => {
             Private Consultation
           </h2>
           <p className="font-sans text-xl text-slate-grey max-w-3xl mx-auto">
-            Begin your journey toward financial sovereignty with a confidential consultation.
+            Begin your wealth multiplication journey with a confidential consultation.
           </p>
         </div>
 
@@ -102,11 +102,11 @@ const Contact = () => {
                 </label>
                 <select className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent">
                   <option value="">Select a service</option>
-                  <option value="ubt">UBT Architecture</option>
-                  <option value="metals">Metals Collateralization</option>
-                  <option value="banking">Infinite Banking</option>
-                  <option value="travel">Sovereign Travel</option>
-                  <option value="comprehensive">Comprehensive Strategy</option>
+                  <option value="private">Private Financing Framework</option>
+                  <option value="capital">Capital Recycling</option>
+                  <option value="distribution">Strategic Distribution</option>
+                  <option value="sovereign">Sovereign Protection</option>
+                  <option value="comprehensive">Comprehensive Framework</option>
                 </select>
               </div>
 
@@ -117,7 +117,7 @@ const Contact = () => {
                 <textarea 
                   rows="4" 
                   className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
-                  placeholder="Tell us about your wealth architecture goals..."
+                  placeholder="Tell us about your wealth multiplication goals..."
                 ></textarea>
               </div>
 

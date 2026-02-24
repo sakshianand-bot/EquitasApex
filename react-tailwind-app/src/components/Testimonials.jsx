@@ -3,22 +3,22 @@ import { useState } from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "EQUITAS transformed my understanding of wealth preservation. The UBT structure they designed has given me privacy I never thought possible.",
+      quote: "EQUITAS transformed my understanding of wealth multiplication. The Private Financing Framework they designed has given me tax-deferred growth with immediate liquidity.",
       client: "Private Client",
       location: "Nevada",
-      service: "UBT Architecture"
+      service: "Private Financing Framework"
     },
     {
-      quote: "The metals collateralization strategy unlocked liquidity in my gold holdings without selling. A true game-changer for portfolio flexibility.",
+      quote: "The Capital Recycling strategy unlocked my equity without interrupting growth. A true game-changer for portfolio deployment and velocity of money.",
       client: "HNW Investor",
       location: "Texas",
-      service: "Metals Collateralization"
+      service: "Capital Recycling"
     },
     {
-      quote: "Finally, a team that understands sovereign wealth. Their infinite banking education has multiplied my family's generational wealth.",
+      quote: "Finally, a team that understands sovereign wealth. Their Strategic Distribution framework has created tax-free income streams for my family's generational wealth.",
       client: "Family Office",
       location: "Wyoming",
-      service: "Infinite Banking"
+      service: "Strategic Distribution"
     }
   ];
 

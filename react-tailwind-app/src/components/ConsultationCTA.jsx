@@ -12,12 +12,12 @@ const ConsultationCTA = () => {
           </div>
           
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Begin Your <span className="text-burnished-gold">Sovereign Journey</span>
+            Begin Your <span className="text-burnished-gold">Wealth Multiplication</span>
           </h2>
           
           <p className="font-sans text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Schedule a confidential consultation with our wealth architects. 
-            Discover how to transform your hard assets into dynamic, liquid wealth.
+            Discover how to maximize the velocity of money with non-bank financing frameworks.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

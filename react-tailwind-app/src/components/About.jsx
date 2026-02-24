@@ -12,7 +12,7 @@ const About = () => {
             <div className="relative">
               {/* Darker text for the light background area */}
               <span className="text-burnished-gold font-mono text-sm tracking-widest uppercase mb-4 block">
-                Establishment & Strategy
+                Wealth Multiplication Framework
               </span>
               <h2 className="font-serif text-5xl md:text-7xl font-bold leading-tight text-slate-900">
                 Financial 
@@ -29,7 +29,7 @@ const About = () => {
                 </h3>
                 {/* Text transitions to lighter gray as background darkens */}
                 <p className="font-sans text-slate-700 leading-relaxed text-lg border-l border-burnished-gold/30 pl-6">
-                  To empower individuals with the architecture of financial sovereignty by transforming stagnant hard assets into dynamic, liquid wealth.
+                  To empower individuals with wealth multiplication frameworks that maximize the velocity of money while maintaining institutional-grade protection.
                 </p>
               </div>
 
@@ -38,7 +38,7 @@ const About = () => {
                   Our Vision
                 </h3>
                 <p className="font-sans text-slate-700 leading-relaxed text-lg border-l border-burnished-gold/30 pl-6">
-                  To lead the global transition toward private, asset-backed banking systems that prioritize privacy, security, and mobility.
+                  To lead the global transition toward non-bank financing frameworks that enable sovereign wealth multiplication and protection.
                 </p>
               </div>
             </div>
@@ -51,10 +51,10 @@ const About = () => {
               </h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {[
-                  "Privacy First", 
-                  "Asset Security", 
-                  "Global Mobility", 
-                  "Wealth Preservation"
+                  "Private Reserve", 
+                  "Capital Recycling", 
+                  "Strategic Distribution", 
+                  "Sovereign Protection"
                 ].map((principle) => (
                   <div key={principle} className="flex flex-col items-center space-y-3 text-center">
                     <span className="text-burnished-gold text-xl">◆</span>
