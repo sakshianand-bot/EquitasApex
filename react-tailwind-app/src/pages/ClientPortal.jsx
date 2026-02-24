@@ -27,7 +27,7 @@ const ClientPortal = () => {
             Client <span className="text-burnished-gold">Portal</span>
           </h1>
           <p className="font-sans text-xl text-gray-300 max-w-2xl mx-auto">
-            Exclusive access for EQUITAS CAPITAL APEX FIDUCIA clients. 
+            Exclusive access for EQUITAS wealth multiplication framework clients. 
             Secure, private, and confidential.
           </p>
         </div>
@@ -114,16 +114,16 @@ const ClientPortal = () => {
               Portal <span className="text-burnished-gold">Features</span>
             </h2>
             <p className="font-sans text-gray-300 max-w-2xl mx-auto">
-              Exclusive tools and resources available to EQUITAS clients
+              Exclusive tools and resources available to wealth multiplication framework clients
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: '◆', title: 'Portfolio Dashboard', desc: 'Real-time asset overview and performance metrics' },
-              { icon: '◆', title: 'Document Vault', desc: 'Secure access to trust documents and contracts' },
-              { icon: '◆', title: 'Private Messaging', desc: 'Direct encrypted communication with your advisor' },
-              { icon: '◆', title: 'Meeting Scheduler', desc: 'Book private consultations and strategy sessions' }
+              { icon: '◆', title: 'Framework Dashboard', desc: 'Real-time wealth multiplication performance and velocity metrics' },
+              { icon: '◆', title: 'Document Vault', desc: 'Secure access to framework documents and contracts' },
+              { icon: '◆', title: 'Private Messaging', desc: 'Direct encrypted communication with your framework advisor' },
+              { icon: '◆', title: 'Strategy Scheduler', desc: 'Book framework consultations and multiplication sessions' }
             ].map((feature, index) => (
               <div key={index} className="bg-slate-grey/20 p-6 rounded-lg text-center">
                 <div className="text-4xl mb-4">{feature.icon}</div>
@@ -144,12 +144,12 @@ const ClientPortal = () => {
             </h3>
             <div className="font-sans text-slate-grey space-y-3">
               <p>
-                The EQUITAS Client Portal employs bank-grade encryption (AES-256) and multi-factor authentication 
-                to ensure your financial data remains strictly confidential.
+                The EQUITAS Wealth Multiplication Portal employs institutional-grade security and multi-factor authentication 
+                to ensure your framework data remains strictly confidential.
               </p>
               <p>
                 All portal access is logged and monitored for security purposes. Unauthorized access attempts 
-                are prosecuted to the fullest extent of the law.
+                are prosecuted to the fullest extent of the law under sovereign protection protocols.
               </p>
               <p className="text-sm">
                 For account assistance, contact: <strong>concierge@EquitasApex.com</strong> or call <strong>+1 555-APEX (2739)</strong>

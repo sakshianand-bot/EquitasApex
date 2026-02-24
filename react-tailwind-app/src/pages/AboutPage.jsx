@@ -51,7 +51,7 @@ const AboutPage = () => {
               <div className="text-midnight-navy text-4xl mb-6">◆</div>
               <h2 className="font-serif text-3xl font-bold mb-6 text-midnight-navy">Our Vision</h2>
               <p className="font-sans text-lg text-slate-grey leading-relaxed">
-                To lead the global transition toward non-bank financing frameworks that enable sovereign wealth multiplication and protection. We envision a world where financial sovereignty is accessible 
+                To lead the global transition toward non-bank financing frameworks that enable sovereign wealth multiplication and protection. We envision a world where sovereign protection is accessible 
                 to those who seek true independence from traditional banking constraints.
               </p>
             </div>
@@ -112,13 +112,13 @@ const AboutPage = () => {
               </p>
               <p>
                 Our name reflects our philosophy: "Equitas" represents equity and fairness in all dealings, while 
-                "Apex" signifies our commitment to reaching the pinnacle of wealth architecture. "Fiducia" — the Latin 
+                "Apex" signifies our commitment to reaching the pinnacle of wealth multiplication frameworks. "Fiducia" — the Latin 
                 root of fiduciary — reminds us daily of our sacred trust to act in our clients' best interests.
               </p>
               <p>
                 We specialize in the intersection of wealth multiplication frameworks and modern liquidity strategies. Through 
                 our proprietary private financing vehicles, capital recycling programs, and strategic distribution education, we 
-                empower our clients to achieve financial sovereignty — true independence from traditional banking systems.
+                empower our clients to achieve sovereign protection — true independence from traditional banking systems.
               </p>
             </div>
           </div>

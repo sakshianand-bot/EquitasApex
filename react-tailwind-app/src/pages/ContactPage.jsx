@@ -114,7 +114,7 @@ const ContactPage = () => {
                 Schedule Consultation
               </h2>
               <p className="font-sans text-slate-grey mb-8">
-                Complete the form below and our concierge team will contact you to schedule your private consultation.
+                Complete the form below and our concierge team will contact you to schedule your wealth multiplication consultation.
               </p>
               
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -219,7 +219,7 @@ const ContactPage = () => {
           <div className="bg-slate-grey/30 p-8 rounded-lg max-w-4xl mx-auto">
             <p className="font-sans text-gray-300">
               [Interactive Map Integration Available]<br />
-              <span className="text-sm">Serving clients globally with offices in strategic jurisdictions</span>
+              <span className="text-sm">Serving clients globally with offices in strategic wealth multiplication jurisdictions</span>
             </p>
           </div>
         </div>
