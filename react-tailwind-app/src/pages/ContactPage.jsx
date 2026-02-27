@@ -10,6 +10,9 @@ const ContactPage = () => {
     message: ''
   });
 
+  const [result, setResult] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -17,9 +20,44 @@ const ContactPage = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert('Thank you for your inquiry. Our concierge team will contact you within 24 hours.');
+    setIsSubmitting(true);
+    setResult('Sending....');
+    
+    try {
+      const submitFormData = new FormData();
+      submitFormData.append('access_key', import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
+      submitFormData.append('name', formData.name);
+      submitFormData.append('email', formData.email);
+      submitFormData.append('phone', formData.phone);
+      submitFormData.append('service', formData.service);
+      submitFormData.append('message', formData.message);
+
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: submitFormData
+      });
+
+      const data = await response.json();
+      
+      if (data.success) {
+        setResult('Form Submitted Successfully');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          service: '',
+          message: ''
+        });
+      } else {
+        setResult(`Error: ${data.message || 'Unknown error'}`);
+      }
+    } catch (error) {
+      setResult(`Error: ${error.message}`);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -197,11 +235,25 @@ const ContactPage = () => {
 
                 <button 
                   type="submit"
-                  className="w-full bg-midnight-navy text-burnished-gold py-4 rounded font-semibold hover:bg-slate-grey transition-colors"
+                  disabled={isSubmitting}
+                  className="w-full bg-midnight-navy text-burnished-gold py-4 rounded font-semibold hover:bg-slate-grey transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Request Private Consultation
+                  {isSubmitting ? 'Sending...' : 'Request Private Consultation'}
                 </button>
               </form>
+
+              {/* Result Message */}
+              {result && (
+                <div className={`mt-4 p-4 rounded-lg text-center font-medium ${
+                  result === 'Form Submitted Successfully' 
+                    ? 'bg-green-100 text-green-800 border border-green-300' 
+                    : result === 'Sending....'
+                    ? 'bg-blue-100 text-blue-800 border border-blue-300'
+                    : 'bg-red-100 text-red-800 border border-red-300'
+                }`}>
+                  {result}
+                </div>
+              )}
             </div>
           </div>
         </div>

@@ -1,4 +1,48 @@
+import { useState } from 'react';
+
 const Contact = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    
+    try {
+      const formData = new FormData(event.target);
+      const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+      
+      console.log('Access Key:', accessKey);
+      console.log('Form Data:', Object.fromEntries(formData));
+      
+      if (!accessKey) {
+        setResult("Error: API key not found");
+        return;
+      }
+      
+      formData.append("access_key", accessKey);
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+
+      console.log('Response status:', response.status);
+      
+      const data = await response.json();
+      console.log('Response data:', data);
+      
+      if (data.success) {
+        setResult("Form Submitted Successfully");
+        event.target.reset();
+      } else {
+        setResult(`Error: ${data.message || 'Unknown error'}`);
+      }
+    } catch (error) {
+      console.error('Submission error:', error);
+      setResult(`Error: ${error.message}`);
+    }
+  };
+
   return (
     <section id="contact" className="py-20 bg-off-white">
       <div className="container mx-auto px-4">
@@ -60,13 +104,14 @@ const Contact = () => {
               Schedule Consultation
             </h3>
             
-            <form className="space-y-6">
+            <form onSubmit={onSubmit} className="space-y-6">
               <div>
                 <label className="block font-sans text-sm font-medium text-slate-grey mb-2">
                   Full Name *
                 </label>
                 <input 
                   type="text" 
+                  name="name"
                   className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
                   placeholder="John Doe"
                   required
@@ -79,6 +124,7 @@ const Contact = () => {
                 </label>
                 <input 
                   type="email" 
+                  name="email"
                   className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
                   placeholder="john@example.com"
                   required
@@ -91,6 +137,7 @@ const Contact = () => {
                 </label>
                 <input 
                   type="tel" 
+                  name="phone"
                   className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
                   placeholder="+1 (555) 123-4567"
                 />
@@ -100,7 +147,10 @@ const Contact = () => {
                 <label className="block font-sans text-sm font-medium text-slate-grey mb-2">
                   Service Interest
                 </label>
-                <select className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent">
+                <select 
+                  name="service"
+                  className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
+                >
                   <option value="">Select a service</option>
                   <option value="private">Private Financing Framework</option>
                   <option value="capital">Capital Recycling</option>
@@ -115,9 +165,11 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea 
+                  name="message"
                   rows="4" 
                   className="w-full px-4 py-3 border border-slate-grey rounded-lg focus:outline-none focus:ring-2 focus:ring-burnished-gold focus:border-transparent"
                   placeholder="Tell us about your wealth multiplication goals..."
+                  required
                 ></textarea>
               </div>
 
@@ -128,6 +180,19 @@ const Contact = () => {
                 Request Private Consultation
               </button>
             </form>
+
+            {/* Result Message */}
+            {result && (
+              <div className={`mt-4 p-4 rounded-lg text-center font-medium ${
+                result === "Form Submitted Successfully" 
+                  ? "bg-green-100 text-green-800 border border-green-300" 
+                  : result === "Sending...."
+                  ? "bg-blue-100 text-blue-800 border border-blue-300"
+                  : "bg-red-100 text-red-800 border border-red-300"
+              }`}>
+                {result}
+              </div>
+            )}
           </div>
         </div>
       </div>
