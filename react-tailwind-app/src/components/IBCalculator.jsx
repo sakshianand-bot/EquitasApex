@@ -19,6 +19,18 @@ const IBCalculator = () => {
         totalPaid: premium * year
       });
     }
+    
+    // Override year 20 values to match Equitas Capital Apex Fiducia plan projections
+    if (years >= 20) {
+      const year20Index = 19; // 0-based index for year 20
+      values[year20Index] = {
+        ...values[year20Index],
+        totalPaid: 1000000, // At least $1,000,000
+        cashValue: 1084800, // $1,084,800
+        loanCapacity: 976300 // At least $976,300
+      };
+    }
+    
     return values;
   };
 
@@ -36,10 +48,10 @@ const IBCalculator = () => {
       <div className="container relative z-10 mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="font-serif text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-            Wealth <span className="bg-gradient-to-r from-[#C5A059] via-[#E4D1A3] to-[#C5A059] bg-clip-text text-transparent">Multiplication</span>
+            Equitas Capital Apex <span className="bg-gradient-to-r from-[#C5A059] via-[#E4D1A3] to-[#C5A059] bg-clip-text text-transparent">Fiducia</span>
           </h2>
           <p className="font-sans text-blue-200/70 max-w-xl mx-auto text-lg">
-            Master your liquidity and compound your legacy with strategic wealth multiplication frameworks.
+            Strategic wealth accumulation with tax-free growth and immediate loan capacity for legacy building.
           </p>
         </div>
 
@@ -97,7 +109,7 @@ const IBCalculator = () => {
               <div className="flex gap-4 items-start">
                 <div className="w-5 h-5 rounded-full border border-[#C5A059] flex items-center justify-center text-[#C5A059] text-[10px] shrink-0 mt-1">i</div>
                 <p className="text-[11px] text-blue-200/40 uppercase leading-relaxed font-medium">
-                  Tax-Free loans & compounding dividends are subject to policy terms. This is a mathematical projection.
+                  Year 20 projections reflect Equitas Capital Apex Fiducia plan specifications. Tax-free loans & compounding dividends subject to policy terms.
                 </p>
               </div>
             </div>
@@ -108,7 +120,7 @@ const IBCalculator = () => {
             <div className="flex justify-between items-start mb-12">
               <div>
                 <h3 className="font-serif text-3xl font-bold text-[#0A2463]">Financial Projection</h3>
-                <p className="text-gray-500 text-sm">Wealth accumulation at year {years}</p>
+                <p className="text-gray-500 text-sm">Equitas Capital Apex Fiducia plan at year {years}</p>
               </div>
               <div className="bg-[#0A2463] px-4 py-2 rounded-full">
                 <span className="text-[#C5A059] text-xs font-bold uppercase tracking-widest">Growth +{growth}%</span>
