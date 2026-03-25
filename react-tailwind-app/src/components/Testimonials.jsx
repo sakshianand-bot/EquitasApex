@@ -3,7 +3,7 @@ import { useState } from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "EQUITAS transformed my understanding of wealth multiplication. The Private Financing Framework they designed has given me tax-deferred growth with immediate liquidity.",
+      quote: "Apex Fiducia transformed my understanding of wealth multiplication. The Private Financing Framework they designed has given me tax-deferred growth with immediate liquidity.",
       client: "Private Client",
       location: "Nevada",
       service: "Private Financing Framework"

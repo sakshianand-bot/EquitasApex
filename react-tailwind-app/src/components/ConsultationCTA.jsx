@@ -28,11 +28,11 @@ const ConsultationCTA = () => {
               Schedule Private Consultation
             </Link>
             <a 
-              href="tel:+15555552739"
+              href="tel:2133255881"
               className="text-white font-sans hover:text-burnished-gold transition-colors flex items-center gap-2"
             >
               <span className="text-burnished-gold">●</span>
-              +1 555-APEX (2739)
+              213-325-5881
             </a>
           </div>
 

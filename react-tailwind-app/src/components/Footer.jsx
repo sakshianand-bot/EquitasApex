@@ -14,8 +14,8 @@ const Footer = () => {
                 </div>
               </div>
               <div>
-                <h3 className="font-serif text-lg font-semibold">EQUITAS</h3>
-                <p className="font-sans text-xs text-burnished-gold">CAPITAL APEX FIDUCIA</p>
+                <h3 className="font-serif text-lg font-semibold">APEX</h3>
+                <p className="font-sans text-xs text-burnished-gold">FIDUCIA</p>
               </div>
             </Link>
             <p className="font-sans text-sm text-gray-300">
@@ -49,8 +49,8 @@ const Footer = () => {
           <div>
             <h4 className="font-sans font-semibold text-burnished-gold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="font-sans text-sm text-gray-300">concierge@EquitasApex.com</li>
-              <li className="font-sans text-sm text-gray-300">+1 555-APEX (2739)</li>
+              <li className="font-sans text-sm text-gray-300">solutions@apexfiducia.net</li>
+              <li className="font-sans text-sm text-gray-300">213-325-5881</li>
               <li className="font-sans text-sm text-gray-300">Las Vegas, NV</li>
             </ul>
           </div>
@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="border-t border-slate-grey pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-sans text-sm text-gray-400 mb-4 md:mb-0">
-              © 2024 EQUITAS CAPITAL APEX FIDUCIA. All rights reserved.
+              © 2024 APEX FIDUCIA. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="font-sans text-sm text-gray-400 hover:text-burnished-gold transition-colors">

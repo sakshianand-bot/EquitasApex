@@ -65,12 +65,12 @@ const Contact = () => {
             <div className="space-y-6">
               <div>
                 <h4 className="font-sans font-semibold text-burnished-gold mb-2">Email</h4>
-                <p className="font-sans text-gray-300">concierge@EquitasApex.com</p>
+                <p className="font-sans text-gray-300">solutions@apexfiducia.net</p>
               </div>
 
               <div>
                 <h4 className="font-sans font-semibold text-burnished-gold mb-2">Phone</h4>
-                <p className="font-sans text-gray-300">+1 555-APEX (2739)</p>
+                <p className="font-sans text-gray-300">213-325-5881</p>
               </div>
 
               <div>

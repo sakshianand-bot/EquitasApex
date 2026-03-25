@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-20">
         <div className="max-w-3xl">
           {/* Decorative Tag */}
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 mt-12 mb-12">
             <div className="w-12 h-[1px] bg-midnight-navy/40" />
             <span className="text-xs font-bold tracking-[0.2em] uppercase text-midnight-navy/60">
               Institutional Frameworks

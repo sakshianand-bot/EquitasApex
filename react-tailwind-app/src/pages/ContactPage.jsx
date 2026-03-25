@@ -93,7 +93,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-sans font-semibold text-midnight-navy mb-1">Email</h3>
-                      <p className="font-sans text-slate-grey">concierge@EquitasApex.com</p>
+                      <p className="font-sans text-slate-grey">solutions@apexfiducia.net</p>
                       <p className="font-sans text-sm text-slate-grey mt-1">Response within 24 hours</p>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-sans font-semibold text-midnight-navy mb-1">Phone</h3>
-                      <p className="font-sans text-slate-grey">+1 555-APEX (2739)</p>
+                      <p className="font-sans text-slate-grey">213-325-5881</p>
                       <p className="font-sans text-sm text-slate-grey mt-1">Mon-Fri 9AM-6PM EST</p>
                     </div>
                   </div>

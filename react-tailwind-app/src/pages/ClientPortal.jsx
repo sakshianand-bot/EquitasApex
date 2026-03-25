@@ -8,7 +8,7 @@ const ClientPortal = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // This is a demo - in production, this would validate credentials
-    alert('Client Portal access requires verified credentials. Please contact concierge@EquitasApex.com for account setup.');
+    alert('Client Portal access requires verified credentials. Please contact solutions@apexfiducia.net for account setup.');
   };
 
   return (
@@ -27,7 +27,7 @@ const ClientPortal = () => {
             Client <span className="text-burnished-gold">Portal</span>
           </h1>
           <p className="font-sans text-xl text-gray-300 max-w-2xl mx-auto">
-            Exclusive access for EQUITAS wealth multiplication framework clients. 
+            Exclusive access for Apex Fiducia wealth multiplication framework clients. 
             Secure, private, and confidential.
           </p>
         </div>
@@ -144,7 +144,7 @@ const ClientPortal = () => {
             </h3>
             <div className="font-sans text-slate-grey space-y-3">
               <p>
-                The EQUITAS Wealth Multiplication Portal employs institutional-grade security and multi-factor authentication 
+                The Apex Fiducia Wealth Multiplication Portal employs institutional-grade security and multi-factor authentication 
                 to ensure your framework data remains strictly confidential.
               </p>
               <p>
@@ -152,7 +152,7 @@ const ClientPortal = () => {
                 are prosecuted to the fullest extent of the law under sovereign protection protocols.
               </p>
               <p className="text-sm">
-                For account assistance, contact: <strong>concierge@EquitasApex.com</strong> or call <strong>+1 555-APEX (2739)</strong>
+                For account assistance, contact: <strong>solutions@apexfiducia.net</strong> or call <strong>213-325-5881</strong>
               </p>
             </div>
           </div>

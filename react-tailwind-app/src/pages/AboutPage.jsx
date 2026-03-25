@@ -22,10 +22,10 @@ const AboutPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">
-              About <span className="text-burnished-gold">EQUITAS</span>
+              About <span className="text-burnished-gold">APEX</span>
             </h1>
             <p className="font-sans text-xl text-gray-300 leading-relaxed">
-              EQUITAS CAPITAL APEX FIDUCIA represents the pinnacle of sovereign wealth consulting, 
+              APEX FIDUCIA represents the pinnacle of sovereign wealth consulting, 
               where traditional fiduciary excellence meets modern privacy architecture.
             </p>
           </div>
@@ -102,17 +102,16 @@ const AboutPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-serif text-4xl font-bold text-midnight-navy mb-8 text-center">
-              The <span className="text-burnished-gold">EQUITAS</span> Story
+              The <span className="text-burnished-gold">APEX</span> Story
             </h2>
             <div className="space-y-6 font-sans text-lg text-slate-grey leading-relaxed">
               <p>
-                Founded on the principle that true wealth extends beyond mere accumulation, EQUITAS CAPITAL APEX FIDUCIA 
+                Founded on the principle that true wealth extends beyond mere accumulation, APEX 
                 emerged from the recognition that high-net-worth individuals require sophisticated structures that match 
                 the complexity of their financial lives.
               </p>
               <p>
-                Our name reflects our philosophy: "Equitas" represents equity and fairness in all dealings, while 
-                "Apex" signifies our commitment to reaching the pinnacle of wealth multiplication frameworks. "Fiducia" — the Latin 
+                Our name reflects our philosophy: "Apex" signifies our commitment to reaching the pinnacle of wealth multiplication frameworks. "Fiducia" — the Latin 
                 root of fiduciary — reminds us daily of our sacred trust to act in our clients' best interests.
               </p>
               <p>
